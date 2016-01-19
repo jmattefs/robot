@@ -21,11 +21,11 @@ namespace ConsoleApplication1
         }
         public virtual void shoot()
         {
-            Console.WriteLine("The robot arm gun shot something");
+            Console.WriteLine("The robot arm gun shot whatever it decided to aim at");
         }
         public virtual void swing()
         {
-            Console.WriteLine("The robot swung it's wrecking ball arm back...");
+            Console.WriteLine("The robot swung it's wrecking ball arm back and...");
         }
     }
 }
