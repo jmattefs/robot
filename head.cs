@@ -9,9 +9,17 @@ namespace ConsoleApplication1
     class head
     {
         int numberOfEyes = 2;
-        bool eyesOpen;
+        public bool vibraniumPlating = true;
 
-        public head(bool eyes) {eyesOpen = eyes }
+        public head()
+        {
+
+        }
+        public void look()
+        {
+            Console.WriteLine("The robot looked at whatever was in front of him");
+        }
+    
         
     }
 }

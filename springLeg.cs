@@ -9,5 +9,11 @@ namespace ConsoleApplication1
     class springLeg : leg
     {
         public bool isSpring = true;
+
+        public override void jump()
+        {
+            Console.WriteLine("BOING");
+        }
+
     }
 }

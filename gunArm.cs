@@ -11,5 +11,14 @@ namespace ConsoleApplication1
         public bool hasGun = true;
         int numberOfBullets = 6;
 
+        public override void aim()
+        {
+            Console.WriteLine("beep Beep BEEP");
+        }
+        public override void shoot()
+        {
+            Console.WriteLine("BANG");
+        }
+
     }
 }

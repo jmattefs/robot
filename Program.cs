@@ -11,9 +11,24 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             head head = new head();
-            arm arm1 = new arm();
-            arm arm2 = new arm();
+            arm arm = new arm();
             leg leg = new leg();
+            springLeg springLeg = new springLeg();
+            gunArm gunArm = new gunArm();
+            wreckingballarm wreckingballarm = new wreckingballarm();
+            head.look();
+            springLeg.jump();
+            leg.jump();
+            arm.aim();
+            gunArm.aim();
+            arm.shoot();
+            gunArm.shoot();
+            arm.swing();
+            wreckingballarm.swing();
+            springLeg.jump();
+            leg.jump();
+
+            
         }
     }
 }

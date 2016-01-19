@@ -9,6 +9,15 @@ namespace ConsoleApplication1
     class leg
     {
         int numberOfLegs = 1;
-        public bool isSteel = true;
+        public bool isTitanium = true;
+
+    public leg()
+        {
+
+        }
+        public virtual void jump()
+        {
+            Console.WriteLine("The robot jumped somewhere");
+        }
     }
 }

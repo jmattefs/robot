@@ -10,5 +10,10 @@ namespace ConsoleApplication1
     {
         public bool hasChain = true;
         public bool hasWreckingBall = true;
+
+        public override void swing()
+        {
+            Console.WriteLine("BOOOOOOOOOOOM");
+        }
     }
 }
